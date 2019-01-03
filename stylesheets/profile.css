@@ -1,0 +1,52 @@
+*{
+	font-family: 'Raleway', 'sans-serif';
+}
+
+body{
+	background-color: #F9F9F9;
+}
+
+/*Nav Section*/
+
+nav {
+	background-color: #242424;
+	color: #F9F9F9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 200px;
+}
+
+nav li, nav a{
+	list-style: none;
+	text-decoration: none;
+	font-size: 18px
+}
+
+a:visited{
+	color: #F9F9F9;
+}
+
+nav h3{
+	width: 50%;
+	margin: 20px auto;
+	text-align: right;
+}
+
+/*Profile Form*/
+h1{
+	color: #242424;
+	font-size: 72px;
+}
+
+.profile{
+	margin: 0 0 0 200px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
